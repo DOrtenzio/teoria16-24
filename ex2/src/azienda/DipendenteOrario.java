@@ -22,7 +22,7 @@ public class DipendenteOrario extends Dipendente{
     public double getTariffaOraria() { return tariffaOraria; }
     public void setTariffaOraria(double tariffaOraria) {
         if (tariffaOraria<=0)
-            this.tariffaOraria = 8.0;
+            this.tariffaOraria = 0.0;
         else
             this.tariffaOraria = tariffaOraria;
     }

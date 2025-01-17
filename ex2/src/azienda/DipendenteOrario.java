@@ -31,7 +31,7 @@ public class DipendenteOrario extends Dipendente{
     @Override
     public double paga() {
         if (oreLavorate>40)
-            return tariffaOraria*oreLavorate+tariffaOraria*(oreLavorate-40);
+            return tariffaOraria*oreLavorate+1.5*tariffaOraria*(oreLavorate-40);
         else
             return tariffaOraria*oreLavorate;
     }

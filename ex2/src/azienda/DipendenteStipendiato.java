@@ -13,7 +13,7 @@ public class DipendenteStipendiato extends Dipendente{
     public double getStipendioSettimanale() { return stipendioSettimanale; }
     public void setStipendioSettimanale(double stipendioSettimanale) {
         if (stipendioSettimanale <= 0 )
-            this.stipendioSettimanale = 100.0;
+            this.stipendioSettimanale = 0.0;
         else
             this.stipendioSettimanale = stipendioSettimanale;
     }

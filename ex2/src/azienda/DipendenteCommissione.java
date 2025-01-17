@@ -22,7 +22,7 @@ public class DipendenteCommissione extends Dipendente{
     public double getPercentualeVendita() { return percentualeVendita; }
     public void setPercentualeVendita(double percentualeVendita) {
         if (percentualeVendita<=0)
-            this.percentualeVendita = 10.0;
+            this.percentualeVendita = 0.0;
         else
             this.percentualeVendita = percentualeVendita;
     }
